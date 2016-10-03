@@ -23,8 +23,8 @@ $childs_pages = get_pages(array("child_of" => $post->post_parent));
 exit();*/
 ?>
 
-<div style="position:absolute;top:0;left:0;width:100%;height:100%;background-image:url(<?=$img_fondo?>);background-repeat:no-repeat;background-size:100% 100%;">
-	<div class="m-x-3" style="font-size:1.3rem;line-height:1.5rem;margin-top:12%;">
+<div style="position:relative;top:0;left:0;width:100%;height:100%;background-image:url(<?=$img_fondo?>);background-repeat:no-repeat;background-size:100% 100%;">
+	<div class="m-x-3 box-basic">
 		<?=$post->post_content?>
 	</div>  
 </div>

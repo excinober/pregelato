@@ -13,10 +13,9 @@
  */
 
 get_header(); ?>
-<div class="container-fluid m-a-0 text-xs-center" style="position:absolute;top:0;bottom:0;width:100%;height:100%;background-image:url(img/fondo-home.png);background-repeat:no-repeat;background-size:100% 100%;">
-	
+<div class="container-fluid m-a-0 text-xs-center" style="position:absolute;top:0;bottom:0;width:100%;height:100%;background-image:url(img/fondo-home.png);background-repeat:no-repeat;background-size:100% 100%;">	
 
-	<h1 class="display-1 text-xs-center text-blanco" style="margin-top:25%;">MÁQUINAS DE HELADO SUAVE</h1>
+	<h1 class="display-1 text-xs-center text-blanco titulo-home">MÁQUINAS DE HELADO SUAVE</h1>
 	<button class="btn btn-primary p-a-2 m-t-2" id="solicitar-cotizacion"><h2>SOLICITAR COTIZACIÓN<h2></button>
 	
 

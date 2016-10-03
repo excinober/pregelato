@@ -50,7 +50,8 @@ if (isset($_POST["submitContact"])) {
 
 		</div><!-- .site-content -->
 
-		<footer class="container-fluid p-a-2" style="position:absolute;bottom:0;width:100%;background-color:#1D70B7;z-index:999;">
+		<footer class="container-fluid p-a-2 footer">
+		<div class="triangulo"></div>
 			<div class="container" id="box-form-contact" style="display:none;">				
 				<div class="col-xs-12 col-md-4 offset-md-4">
 					<a href="#" class="pull-xs-right text-blanco" id="close-form-contact">Cerrar X</a>

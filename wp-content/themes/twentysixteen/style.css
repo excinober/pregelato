@@ -1576,7 +1576,7 @@ blockquote:after,
  */
 
 .site-header {
-	padding: 2.625em 7.6923%;
+	/*padding: 2.625em 7.6923%;*/
 }
 
 .site-header-main {
@@ -2777,7 +2777,7 @@ p > video {
 	}
 
 	.site-header {
-		padding: 3.9375em 7.6923%;
+		/*padding: 3.9375em 7.6923%;*/
 	}
 
 	.site-branding {
@@ -3012,8 +3012,8 @@ p > video {
 
 	.main-navigation .primary-menu > li {
 		float: left;
-		margin-right: 1.5em;
-		width: 150px;
+		margin-right: 1.3em;
+		width: 120px;
 	}
 
 	.main-navigation .primary-menu li:hover,
@@ -3056,7 +3056,7 @@ p > video {
 		background-color: rgba(225,225,225,0.9);		
 		border-bottom-width: 0;
 		border: 1px solid #009EE2;		
-		width: 150px;
+		width: 120px;
 	}
 
 	.main-navigation ul ul li:hover,
@@ -3441,7 +3441,7 @@ p > video {
 	}
 
 	.site-header {
-		padding: 5.25em 4.5455%;
+		/*padding: 5.25em 4.5455%;*/
 	}
 
 	.site-branding,
@@ -4019,4 +4019,114 @@ p > video {
 
 .text-blanco{
 	color: #fff;
+}
+
+.page{
+	position:absolute;top:0;bottom:0;left:0;right:0;
+}
+
+.background-header{
+	background-color:rgba(225,225,225,0.9); 
+	position:absolute;
+	width:100%;
+	top:0;
+	z-index:9999;
+}
+
+.box-search{
+	background-color:#009EE2;
+	color:#ffffff;
+	width:180px;
+	height:30px;
+}
+
+.input-search{
+	width:150px !important;
+	background-color:transparent !important;
+	height:100%;
+	border:0 !important;
+	color:#ffffff;
+	text-align:center;
+}
+
+.lupa{
+	font-size:20px;
+	color:#ffffff;
+	margin-right:5px;
+}
+
+.titulo-home{
+	margin-top:25%;
+}
+
+.footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:#1D70B7;
+	z-index:999;
+}
+
+.box-slider{
+	margin-top:15%;
+	margin-left:5%;
+}
+
+.text-slider{
+	font-size:1.3rem;
+	line-height:1.5rem;
+}
+
+.box-basic{
+	font-size:1.3rem;
+	line-height:1.5rem;
+	margin-top:12%;
+}
+
+@media (max-width: 768px) {
+	.titulo-home{
+		margin-top:50%;
+	}
+
+	.display-1{
+		font-size: 4rem;
+	}
+
+	.display-4{
+		font-size: 2rem;
+	}
+
+
+	.footer{
+		position: relative;
+	}
+
+	.box-slider{
+		margin-top:50%;
+	}
+
+	.text-slider{
+		font-weight: bold;
+	}
+
+	.box-basic{
+		margin-top: 50%;
+	}
+
+	header{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.triangulo{
+     width: 0;
+     height: 0;
+     border-right: 20px solid transparent;
+     border-top: 20px solid transparent;
+     border-left: 20px solid transparent;
+     border-bottom: 20px solid #1D70B7;
+     margin-top: -60px;
+     left: 49%;
+     position: absolute;
 }

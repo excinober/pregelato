@@ -24,13 +24,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site p-a-0 m-a-0" style="position:absolute;top:0;bottom:0;left:0;right:0;/*width:100%;height:100%;*/">
+<div id="page" class="site p-a-0 m-a-0 page">
 	<!--<div class="site-inner">-->
 	<!--<div class="container-fluid m-a-0 p-a-0" style="height:100%;">-->
-		<div class="container-fluid m-a-0" style="background-color:rgba(225,225,225,0.9); position:absolute;width:100%;top:0;z-index:9999;">
+		<div class="container-fluid m-a-0 background-header">
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
-			<header id="masthead" class="site-header container m-y-0 p-y-2" role="banner">
+			<header id="masthead" class="site-header container m-y-0 p-y-1" role="banner">
 				<div class="site-header-main">
 					<div class="site-branding">
 						<?php twentysixteen_the_custom_logo(); ?>
@@ -78,9 +78,9 @@
 						</div><!-- .site-header-menu -->
 					<?php endif; ?>
 					<!--Buscar-->
-					<div class="pull-right" style="background-color:#009EE2;color:#ffffff;width:150px;height:40px;">
-						<input type="text" class="pull-left" style="width:110px;background-color:transparent !important;height:100%;border:0;color:#ffffff;text-align:center;">
-						<span class="pull-right" style="font-size:25px;color:#ffffff;margin-right:5px;"><i class="fa fa-search" aria-hidden="true"></i></span>
+					<div class="pull-xs-right box-search hidden-sm-down">
+						<input type="text" class="pull-xs-left input-search" placeholder="Buscar">
+						<span class="pull-xs-right lupa"><i class="fa fa-search" aria-hidden="true"></i></span>
 					</div>
 				</div><!-- .site-header-main -->
 
