@@ -81,8 +81,8 @@ if (isset($_POST["submitContact"])) {
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<center>
-						<button class="btn btn-sm btn-primary" id="contacto">CONTACTO</button>
-						<button class="btn btn-sm btn-primary" id="submit-form-contact" style="display:none;">ENVIAR</button>
+						<button class="btn btn-sm btn-primary p-x-2" id="contacto" style="border:0;border-radius: 0;">CONTACTO</button>
+						<button class="btn btn-sm btn-primary p-x-2" id="submit-form-contact" style="border:0;border-radius: 0;display:none;">ENVIAR</button>
 					</center>
 				</div>
 				<div class="col-xs-12 col-md-4">

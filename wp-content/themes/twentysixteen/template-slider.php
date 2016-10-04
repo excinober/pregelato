@@ -47,9 +47,9 @@ $childs_pages = get_pages(array("child_of" => $post->post_parent));
   			$img_fondo = wp_get_attachment_url( get_post_thumbnail_id($childs_pages[$key]->ID));
   	?>
   		<div class="carousel-item <?php if ($id==$pagina->ID) echo 'active'; else echo ''; ?>" style="height:100%;">
-    		<div style="width:100%;height:100%;background-image:url(<?=$img_fondo?>);background-repeat:no-repeat;background-size:100% 100%;">
+    		<div class="contenedor-img-fluid" style="background-image:url(<?=$img_fondo?>);">
     			<div class="col-xs-12 col-md-6 box-slider">
-    				<h1 class="display-3"><?=$pagina->post_title?></h1>
+    				<h1 class="display-4"><?=$pagina->post_title?></h1>
     				<p class="text-slider"><?=$pagina->post_content?></p>
     			</div>
     		</div>
@@ -57,31 +57,8 @@ $childs_pages = get_pages(array("child_of" => $post->post_parent));
   	<?php
 
   		}
-  	?>
-    <!--<div class="carousel-item">
-      <img src="<?=$img_fondo?>">
-    </div>
-    <div class="carousel-item">
-      <img src="<?=$img_fondo?>">
-    </div>-->
+  	?>    
   </div>
-  <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>-->
 </div>
-
-
-<!--<div class="container-fluid m-a-0 text-xs-center" style="position:relative;top:0;bottom:0;width:100%;height:100%;background-image:url(<?=$img_fondo?>);background-repeat:no-repeat;background-size:100% 100%;">-->
-<?php 
-
-
-?>
-
-<!--</div>-->
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

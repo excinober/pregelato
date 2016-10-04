@@ -106,4 +106,4 @@
 			</header><!-- .site-header -->
 		</div>
 		<!--<div id="content" class="site-content">-->
-		<div id="content" class="container-fluid m-a-0 p-a-0" style="height:100%;">
+		<div id="content" class="container-fluid m-a-0 p-a-0">
