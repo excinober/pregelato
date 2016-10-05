@@ -21,9 +21,11 @@ $img_fondo = wp_get_attachment_url( get_post_thumbnail_id($id));
 $childs_pages = get_pages(array("child_of" => $post->post_parent));
 ?>
 
-<div class="contenedor-img-fluid" style="position:absolute;top:0;left:0;background-image:url(<?=$img_fondo?>);">
+<div class="contenedor-img-fluid" style="background-image:url(<?=$img_fondo?>);">
 	<div class="m-x-3 box-basic texto-negro-xs">
-		<?=$post->post_content?>
+		<div class="row">
+			<?=$post->post_content?>
+		</div>
 	</div>
 </div>
 <?php //get_sidebar(); ?>
