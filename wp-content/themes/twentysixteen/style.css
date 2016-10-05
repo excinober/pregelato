@@ -4084,6 +4084,9 @@ p > video {
 }
 
 .contenedor-img-fluid{
+	position: absolute;
+	top:0;
+	bottom:0;
 	width:100%;
 	height:100%;
 	background-repeat:no-repeat;
@@ -4101,7 +4104,7 @@ p > video {
 	}
 
 	.titulo-home{
-		margin-top:50%;
+		margin-top:0%;
 	}
 
 	.display-1{
@@ -4114,7 +4117,7 @@ p > video {
 
 
 	.footer{
-		position: relative;
+		position: relative;		
 	}
 
 	.box-slider{
@@ -4135,8 +4138,12 @@ p > video {
 	}
 
 	.contenedor-img-fluid{
-		background-image:none;
-		background-size:0% 0%;
+		padding-top: 200px;
+		padding-bottom: 100px;
+		position: relative;
+		/*background-image:none;
+		background-size:0% 0%;*/
+		height: auto;
 	}
 
 	#content{
