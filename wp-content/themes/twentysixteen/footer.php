@@ -57,16 +57,16 @@ if (isset($_POST["submitContact"])) {
 					<a href="#" class="pull-xs-right text-blanco" id="close-form-contact">Cerrar X</a>
 					<form id="form-contact" method="post" class="m-y-1">
 						<div class="form-group m-a-0">
-						    <input type="text" name="nombre" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+						    <input type="text" name="nombre" class="form-control" id="nombre_contact" placeholder="Nombre">
 						</div>
 						<div class="form-group m-a-0">					 
-						    <input type="text" name="empresa" class="form-control" id="formGroupExampleInput" placeholder="Empresa">
+						    <input type="text" name="empresa" class="form-control" placeholder="Empresa">
 						</div>
 						<div class="form-group m-a-0">
-						    <input type="email" name="email" class="form-control" id="formGroupExampleInput" placeholder="Email">
+						    <input type="email" name="email" class="form-control" placeholder="Email">
 						</div>
 						<div class="form-group m-a-0">
-						    <input type="text" name="telefono" class="form-control" id="formGroupExampleInput" placeholder="Teléfono">
+						    <input type="text" name="telefono" class="form-control" placeholder="Teléfono">
 						</div>
 						<div class="form-group m-a-0">
 						    <textarea name="asunto" name="asunto" placeholder="Asunto" class="form-control"></textarea>
@@ -140,7 +140,10 @@ if (isset($_POST["submitContact"])) {
 	function openContact(){
 		$("#box-form-contact").css("display","block");
 		$("#contacto").css("display","none");
-		$("#submit-form-contact").css("display","block");			
+		$("#submit-form-contact").css("display","block");
+
+		$("#nombre_contact").focus();
+
 	}
 
 	function closeContact(){

@@ -48,7 +48,7 @@ $childs_pages = get_pages(array("child_of" => $post->post_parent));
   	?>
   		<div class="carousel-item <?php if ($id==$pagina->ID) echo 'active'; else echo ''; ?>" style="height:100%;">
     		<div class="contenedor-img-fluid" style="background-image:url(<?=$img_fondo?>);">
-    			<div class="col-xs-12 col-md-6 box-slider">
+    			<div class="col-xs-12 col-md-5 box-slider">
     				<h1 class="display-4"><?=$pagina->post_title?></h1>
     				<p class="text-slider"><?=$pagina->post_content?></p>
     			</div>

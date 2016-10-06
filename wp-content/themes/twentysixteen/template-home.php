@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="container-fluid m-a-0 text-xs-center contenedor-img-fluid-home" style="background-image:url(img/fondo-home.png);">
 
 	<h1 class="display-2 text-xs-center text-blanco titulo-home">MÁQUINAS DE HELADO SUAVE</h1>
-	<button class="btn btn-primary p-x-3 p-y-1 m-t-2" id="solicitar-cotizacion"><h4 style="font-family: GillSansStd;">SOLICITAR COTIZACIÓN<h4></button>
+	<button class="btn btn-primary p-x-1 p-y-1 m-t-2" id="solicitar-cotizacion"><h4 style="font-family: GillSansStd;word-break: break-all;">SOLICITAR COTIZACIÓN<h4></button>
 	
 </div>
 <?php //get_sidebar(); ?>
