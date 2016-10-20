@@ -78,9 +78,18 @@
 						</div><!-- .site-header-menu -->
 					<?php endif; ?>
 					<!--Buscar-->
-					<div class="pull-xs-right box-search hidden-sm-down">
+					<!--<div class="pull-xs-right box-search hidden-sm-down">
 						<input type="text" class="pull-xs-left input-search" placeholder="Buscar">
 						<span class="pull-xs-right lupa"><i class="fa fa-search" aria-hidden="true"></i></span>
+					</div>-->
+					<!--Redes-->
+					<div class="pull-xs-right redes p-a-1 hidden-sm-down">
+						<a href="#" target="_new">
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						</a>
+						<a href="#" target="_new">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
 					</div>
 				</div><!-- .site-header-main -->
 
